@@ -57,7 +57,7 @@ namespace SIPSorceryMedia.FFmpeg
                 _FFmpegVideoSource.CreateVideoDecoder(path, null, repeat, false);
 
                 _FFmpegVideoSource.OnVideoSourceEncodedSample += _FFmpegVideoSource_OnVideoSourceEncodedSample;
-                _FFmpegVideoSource.OnVideoSourceRawSampleFaster += _FFmpegVideoSource_OnVideoSourceRawSampleFaster;
+                //_FFmpegVideoSource.OnVideoSourceRawSampleFaster += _FFmpegVideoSource_OnVideoSourceRawSampleFaster;
                 _FFmpegVideoSource.OnVideoSourceError += _FFmpegVideoSource_OnVideoSourceError;
             }
         }
